@@ -1,0 +1,10 @@
+#ifndef __POINT__HPP__
+#define __POINT_HPP__
+
+class Point{
+	public :
+		virtual  void afficher()=0;
+};
+
+#endif
+

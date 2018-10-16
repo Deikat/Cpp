@@ -1,0 +1,17 @@
+#include "Cartesien.hpp"
+
+Cartesien::Catersien(double x, double y){
+	_x = x;
+	_y = y;
+}
+
+Cartesien::~Cartesien(){
+}
+
+double Cartesien::getX(){
+	return _x;
+}
+
+double Cartesien::getY(){
+	return _y;
+}

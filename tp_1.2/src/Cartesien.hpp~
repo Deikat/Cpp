@@ -1,0 +1,17 @@
+#ifndef __POINT__HPP__
+#define __POINT_HPP__
+
+class Cartesien : Point(){
+	private :
+		double _x;
+		double _y;
+
+	public :
+		Catersien(double x, double y);
+		~Cartesien();
+		double getX();
+		double getY();
+};
+
+
+#endif

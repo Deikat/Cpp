@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e6a00/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e6a00.dir/build.make CMakeFiles/cmTC_e6a00.dir/build
+gmake[1] : on entre dans le répertoire « /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_e6a00.dir/CheckSymbolExists.c.o
+/usr/lib64/ccache/cc    -o CMakeFiles/cmTC_e6a00.dir/CheckSymbolExists.c.o   -c /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e6a00
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6a00.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc      -rdynamic CMakeFiles/cmTC_e6a00.dir/CheckSymbolExists.c.o  -o cmTC_e6a00 
+CMakeFiles/cmTC_e6a00.dir/CheckSymbolExists.c.o : Dans la fonction « main » :
+CheckSymbolExists.c:(.text+0x16) : référence indéfinie vers « pthread_create »
+collect2: erreur : ld a retourné 1 code d'état d'exécution
+CMakeFiles/cmTC_e6a00.dir/build.make:97 : la recette pour la cible « cmTC_e6a00 » a échouée
+gmake[1]: *** [cmTC_e6a00] Erreur 1
+gmake[1] : on quitte le répertoire « /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_e6a00/fast » a échouée
+gmake: *** [cmTC_e6a00/fast] Erreur 2
+
+File /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0ab7f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0ab7f.dir/build.make CMakeFiles/cmTC_0ab7f.dir/build
+gmake[1] : on entre dans le répertoire « /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp »
+Building C object CMakeFiles/cmTC_0ab7f.dir/CheckFunctionExists.c.o
+/usr/lib64/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0ab7f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0ab7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ab7f.dir/link.txt --verbose=1
+/usr/lib64/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0ab7f.dir/CheckFunctionExists.c.o  -o cmTC_0ab7f -lpthreads 
+/usr/bin/ld : ne peut trouver -lpthreads
+collect2: erreur : ld a retourné 1 code d'état d'exécution
+CMakeFiles/cmTC_0ab7f.dir/build.make:97 : la recette pour la cible « cmTC_0ab7f » a échouée
+gmake[1]: *** [cmTC_0ab7f] Erreur 1
+gmake[1] : on quitte le répertoire « /home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_1.2/build/CMakeFiles/CMakeTmp »
+Makefile:126 : la recette pour la cible « cmTC_0ab7f/fast » a échouée
+gmake: *** [cmTC_0ab7f/fast] Erreur 2
+
+
