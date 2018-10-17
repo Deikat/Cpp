@@ -4,7 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tp2_nuage.dir/src/point.cpp.o"
   "CMakeFiles/tp2_nuage.dir/src/polaire.cpp.o"
   "tp2_nuage.pdb"
-  "tp2_nuage"
+  "tp2_nuage.exe"
+  "libtp2_nuage.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

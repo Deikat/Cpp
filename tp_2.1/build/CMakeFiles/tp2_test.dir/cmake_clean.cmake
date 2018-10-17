@@ -5,7 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tp2_test.dir/src/point.cpp.o"
   "CMakeFiles/tp2_test.dir/src/polaire.cpp.o"
   "tp2_test.pdb"
-  "tp2_test"
+  "tp2_test.exe"
+  "libtp2_test.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

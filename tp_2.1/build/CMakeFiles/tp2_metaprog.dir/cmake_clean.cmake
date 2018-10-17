@@ -4,7 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tp2_metaprog.dir/src/point.cpp.o"
   "CMakeFiles/tp2_metaprog.dir/src/polaire.cpp.o"
   "tp2_metaprog.pdb"
-  "tp2_metaprog"
+  "tp2_metaprog.exe"
+  "libtp2_metaprog.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,47 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Cartesien.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Cartesien.hpp
 point.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.hpp
 sstream
 -
 cmath
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Point.hpp
 sstream
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Polaire.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Polaire.hpp
 point.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.hpp
 sstream
 -
 cmath
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/cartesien.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/cartesien.cpp
 Cartesien.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Cartesien.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Cartesien.hpp
 Polaire.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Polaire.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Polaire.hpp
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/main_nuage.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/main_nuage.cpp
 cstdlib
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.cpp
 Point.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Point.hpp
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.hpp
 sstream
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/polaire.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/polaire.cpp
 Polaire.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Polaire.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Polaire.hpp
 Cartesien.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Cartesien.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Cartesien.hpp
 

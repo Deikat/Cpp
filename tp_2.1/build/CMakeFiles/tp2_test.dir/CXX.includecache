@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -7,6 +7,14 @@
 #IncludeRegexTransform: 
 
 ../src/Cartesien.hpp
+point.hpp
+../src/point.hpp
+sstream
+-
+cmath
+-
+
+../src/Polaire.hpp
 point.hpp
 ../src/point.hpp
 sstream
@@ -25,6 +33,8 @@ cmath
 ../src/nuage.hpp
 Cartesien.hpp
 ../src/Cartesien.hpp
+Polaire.hpp
+../src/Polaire.hpp
 vector
 -
 cstddef
@@ -42,51 +52,51 @@ sstream
 cmath
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Cartesien.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Cartesien.hpp
 point.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.hpp
 sstream
 -
 cmath
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Point.hpp
 sstream
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Polaire.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Polaire.hpp
 point.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.hpp
 sstream
 -
 cmath
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/cartesien.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/cartesien.cpp
 Cartesien.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Cartesien.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Cartesien.hpp
 Polaire.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Polaire.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Polaire.hpp
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.cpp
 Point.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Point.hpp
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/point.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/point.hpp
 sstream
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/polaire.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/polaire.cpp
 Polaire.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Polaire.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Polaire.hpp
 Cartesien.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src/Cartesien.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/src/Cartesien.hpp
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/test/catch.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/test/catch.cpp
 catch.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/test/catch.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/test/catch.hpp
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/test/catch.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/test/catch.hpp
 TargetConditionals.h
 -
 iosfwd
@@ -334,7 +344,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/test/Foundation/Foundation.h
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/test/Foundation/Foundation.h
 algorithm
 -
 random
@@ -514,9 +524,9 @@ algorithm
 cassert
 -
 
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/test/tp2_test.cpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/test/tp2_test.cpp
 catch.hpp
-/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/test/catch.hpp
+/cygdrive/d/Cours/ZZ3/Cpp/tp_2.1/test/catch.hpp
 cmath
 -
 nuage.hpp
