@@ -2,6 +2,7 @@
 #define __NUAGE__HPP__
 
 #include "Cartesien.hpp"
+#include "Polaire.hpp"
 #include <vector>
 #include <cstddef>
 
@@ -69,6 +70,20 @@ template <typename T> T barycentre_v1(Nuage<T> & n){
 	return T(c);
 }
 
+/* pour le test 4b */
+Polaire barycentre_v1(Nuage<Polaire> & n){
+	Polaire p;
+	float sommeAngle = 0, sommeDistance= 0;
+	if(n.size() !=0){
+		for(Nuage<Polaire>::const_iterator it = n.begin(); it != n.end(); ++it){
+			sommeDistance += it->getDistance();
+			sommeAngle += it->getAngle();
+		}
+		p.setAngle(sommeAngle/n.size());
+		p.setDistance(sommeDistance/n.size());
+	}
+	return p;
+}
 /*Cartesien BarycentreCartesien::operator()(Nuage & n){
 	return barycentre(n);
 }
