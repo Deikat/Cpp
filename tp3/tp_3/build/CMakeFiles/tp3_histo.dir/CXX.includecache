@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/tp_3/src/Valeur.hpp
+
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/tp_3/src/main_histo.cpp
+cstdlib
+-
+
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/tp_3/src/valeur.cpp
+Valeur.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/tp_3/src/Valeur.hpp
+
