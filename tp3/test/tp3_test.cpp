@@ -10,8 +10,8 @@
 
 //#include <comparateur_quantite.hpp>
 
-typedef Histogramme Histo;
-//typedef Histogramme<> Histo;
+//typedef Histogramme Histo;
+typedef Histogramme<> Histo;
 
 // Tests //-----------------------------------------------------------------------------------------
 
@@ -172,6 +172,7 @@ TEST_CASE ( "TP3_Classe::Accesseurs" ) {
 TEST_CASE ( "TP3_Histogramme::Constructeur" ) {
  Histo h(5.0,15.0,5);
 
+ //h.afficher();
  REQUIRE ( h.getClasses().size() == 5u );
 
  double bornesInf[] = { 5.0, 7.0,  9.0, 11.0, 13.0 };
@@ -179,9 +180,9 @@ TEST_CASE ( "TP3_Histogramme::Constructeur" ) {
 
  Histo::classes_t::const_iterator it = h.getClasses().begin();
  unsigned                         i  = 0;
-
- //h.afficher();
+ 
  while (it!=h.getClasses().end()) {
+  it->afficher();
   REQUIRE ( it->getBorneInf() == Approx(bornesInf[i]) );
   REQUIRE ( it->getBorneSup() == Approx(bornesSup[i]) );
   REQUIRE ( it->getQuantite() == 0u );
@@ -214,7 +215,7 @@ TEST_CASE ( "TP3_Histogramme::Echantillon" ) {
 }
 
 //----------------------------------------------------------------------------------------------- 14
-/*TEST_CASE ( "TP3_Histogramme::Generique" ) {
+TEST_CASE ( "TP3_Histogramme::Generique" ) {
  typedef Histogramme<> histo_t;
 
  histo_t h(5.0,15.0,5);
@@ -234,7 +235,7 @@ TEST_CASE ( "TP3_Histogramme::Echantillon" ) {
   ++it;
   ++i;
  }
-}*/
+}
 
 //----------------------------------------------------------------------------------------------- 15
 /*TEST_CASE ( "TP3_Histogramme::FoncteurGreater" ) {

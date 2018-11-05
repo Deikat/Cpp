@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -35,24 +35,26 @@ Echantillon.hpp
 ../src/Echantillon.hpp
 iostream
 -
+set
+-
 
 ../src/Valeur.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Classe.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Classe.hpp
 cstddef
 -
 iostream
 -
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Echantillon.cpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Echantillon.cpp
 Echantillon.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Echantillon.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Echantillon.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Echantillon.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Echantillon.hpp
 vector
 -
 Valeur.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Valeur.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Valeur.hpp
 cstddef
 -
 algorithm
@@ -62,35 +64,37 @@ functional
 stdexcept
 -
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Histogramme.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Histogramme.hpp
 vector
 -
 Classe.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Classe.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Classe.hpp
 Echantillon.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Echantillon.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Echantillon.hpp
 iostream
 -
+set
+-
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Valeur.cpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Valeur.cpp
 Valeur.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Valeur.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Valeur.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Valeur.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Valeur.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/classe.cpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/classe.cpp
 Classe.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Classe.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Classe.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/histogramme.cpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/histogramme.cpp
 Histogramme.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/src/Histogramme.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/src/Histogramme.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/catch.cpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/catch.cpp
 catch.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/catch.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/catch.hpp
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/catch.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/catch.hpp
 TargetConditionals.h
 -
 iosfwd
@@ -338,7 +342,7 @@ string
 memory
 -
 Foundation/Foundation.h
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/Foundation/Foundation.h
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/Foundation/Foundation.h
 algorithm
 -
 random
@@ -518,17 +522,17 @@ algorithm
 cassert
 -
 
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/tp3_test.cpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/tp3_test.cpp
 catch.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/catch.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/catch.hpp
 Valeur.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/Valeur.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/Valeur.hpp
 Echantillon.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/Echantillon.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/Echantillon.hpp
 Classe.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/Classe.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/Classe.hpp
 Histogramme.hpp
-/cygdrive/d/Cours/ZZ3/Cpp/tp3/test/Histogramme.hpp
+/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp3/test/Histogramme.hpp
 cmath
 -
 vector
