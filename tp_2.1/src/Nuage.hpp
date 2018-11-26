@@ -49,7 +49,6 @@ template <typename T> typename Nuage<T>::const_iterator Nuage<T>::end(){
 /*struct BarycentreCartesien{
 	Cartesien operator()(Nuage & n);
 };
-
 struct BarycentrePolaire{
 	Polaire operator()(Nuage & n);
 };*/
@@ -69,10 +68,40 @@ template <typename T> T barycentre_v1(Nuage<T> & n){
 	return T(c);
 }
 
+
+template <typename T> T barycentre_v2(Nuage<T> & n){
+	Cartesien c;
+	float sommeX = 0, sommeY=0;
+	if(n.size() != 0){
+		for( typename Nuage<T>::const_iterator it = n.begin(); it != n.end();it++){
+			c = Cartesien(*it);
+			sommeX += c.getX();
+			sommeY += c.getY();
+		}
+		c.setX(sommeX / n.size());
+		c.setY(sommeY / n.size());
+	}		
+	return T(c);
+}
+
+template <typename T> T barycentre_v2(std::vector<T> & n){
+	Cartesien c;
+	float sommeX = 0, sommeY=0;
+	if(n.size() != 0){
+		for( typename std::vector<T>::const_iterator it = n.begin(); it != n.end();it++){
+			c = Cartesien(*it);
+			sommeX += c.getX();
+			sommeY += c.getY();
+		}
+		c.setX(sommeX / n.size());
+		c.setY(sommeY / n.size());
+	}		
+	return T(c);
+}
+
 /*Cartesien BarycentreCartesien::operator()(Nuage & n){
 	return barycentre(n);
 }
-
 Polaire BarycentrePolaire::operator()(Nuage & n){
 	Polaire p;
 	barycentre(n).convertir(p);

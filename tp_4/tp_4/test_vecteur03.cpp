@@ -56,7 +56,7 @@ int main(void) {
 
 	//std::sort(liste.begin(),liste.end(),ComparateurComplexe());
 	
-	std::sort(liste.begin(),liste.end(), [] (complexe_t c1, complexe_t c2) { return c1.reel<c2.reel | c1.imaginaire < c2.imaginaire;});
+	std::sort(liste.begin(),liste.end(), [] (complexe_t c1, complexe_t c2) { return c1.reel<c2.reel || (c1.reel==c2.reel &&c1.imaginaire < c2.imaginaire);});
 
 	std::cout << std::endl;
 	

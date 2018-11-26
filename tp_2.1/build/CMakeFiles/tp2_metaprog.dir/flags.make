@@ -6,5 +6,5 @@ CXX_FLAGS = -std=gnu++14 -Wall -pedantic
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/Cpp/tp_2/src 
+CXX_INCLUDES = -I/home/LOCAL.ISIMA.FR/mahenry8/ZZ3/github/Cpp/tp_2.1/src 
 
